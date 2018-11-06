@@ -1,0 +1,19 @@
+/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=62382:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/andrewrobertson/IdeaProjects/52-pickup/out/production/52-pickup Main
+6 of clubs
+ace of diamonds
+2 of diamonds
+3 of diamonds
+4 of diamonds
+5 of diamonds
+6 of diamonds
+7 of diamonds
+8 of diamonds
+9 of diamonds
+10 of diamonds
+jack of diamonds
+queen of diamonds
+king of diamonds
+6 of hearts
+6 of spades
+
+Process finished with exit code 0
