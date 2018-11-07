@@ -1,14 +1,6 @@
 public class Main {
 
-    public static int[][] deck;
-    public static int clubs = 0;
-    public static int diamonds = 1;
-    public static int hearts = 2;
-    public static int spades = 3;
-    public static int jack = 11;
-    public static int queen = 12;
-    public static int king = 13;
-    public static int ace = 1;
+    public static int[][] deck
 
     public static void main(String[] args) {
         // write your code here
@@ -18,24 +10,15 @@ public class Main {
                 deck[i][j] = j + 1;
             }
         }
-        int clubs = 0;
-        int diamonds = 1;
-        int hearts = 2;
-        int spades = 3;
-        int jack = 11;
-        int queen = 12;
-        int king = 13;
-        int ace = 1;
         sortDiamonds();
     }
 
     public static void sortDiamonds() {
         for (int i = 0; i < deck.length; i++) {
             for (int j = 0; j < deck[0].length; j++) {
-                if (i == 1 || j == (6-1)) { //parameter for sorting //6-1 to adjust for array size starting at 0
+                if ((i > 0 && i < 3) && ((j > 9 || j < 1))) { //parameter for sorting //j-1 to adjust for array size starting at 0 //example of red face cards
                     int printElement = deck[i][j];
-                    int suit = i;
-                    String suits;
+                    int suit = i; String suits;
                     if(i == 0){suits = "clubs";}
                     else if(i == 1){suits = "diamonds";}
                     else if(i == 2){suits = "hearts";}
